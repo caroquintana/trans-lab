@@ -50,3 +50,40 @@ table {
     width: 100%;
     height: auto;
 }
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+/* nav */
+nav{
+	background-color: #3E3F41;
+	color: #fff;
+}
+.menu {
+	background-color: #DDDEE0;
+	height: 100vh;
+	width: 100%;
+}
+
+a.brand-logo{
+	font-size: 24px;
+	margin-top: 12px;
+}
+ul#mobile-demo {
+    padding-top: 50px;
+}
+.menupantalla{
+	margin-top: 100px;
+}
+.btn{
+	width: 86%;
+	margin-bottom: 10px;
+	background-color: #F4A728;
+}
+.btn:hover, .btn-large:hover {
+    background-color: #F4A728;
+}
+i.fa.fa-usd, i.fa.fa-calculator, i.fa.fa-user, i.fa.fa-question, i.fa.fa-long-arrow-right {
+	color: #F4A728;
+	font-size: 20px;
+}
