@@ -72,6 +72,8 @@ a.brand-logo{
 ul#mobile-demo {
     padding-top: 50px;
 }
+
+/* mainmenu */
 .menupantalla{
 	margin-top: 100px;
 }
@@ -86,4 +88,32 @@ ul#mobile-demo {
 i.fa.fa-usd, i.fa.fa-calculator, i.fa.fa-user, i.fa.fa-question, i.fa.fa-long-arrow-right {
 	color: #F4A728;
 	font-size: 20px;
+}
+.container{
+	width: 100%;
+}
+
+/* preguntas frecuentes */
+.titulopreguntas{
+	background-color: #F4A728;	
+	height: 30vh;
+	width: 100%;
+}
+h1.frecuentes{
+	color: white;
+	padding-top: 67px;
+	font-size: 20px;
+	font-weight: 700;
+}
+.boxpreguntas {
+    width: 91%;
+    margin: 0 auto;
+}
+.collapsible-body{
+	background-color: #fff;
+	padding: 1rem;
+}
+.textointerno{
+	line-height: 20px;
+	font-size: 14px;
 }
