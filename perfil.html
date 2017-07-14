@@ -44,25 +44,29 @@
 		<div class="container">
 			<div class="row">
 				<div class="col s12 center">
-					<div class="titulopreguntas">
-						<h1 class="frecuentes">PREGUNTAS FRECUENTES</h1>
+					<div class="titulopreguntas cajaavatar">
+						<div class="avatar"></div>
 					</div>
 					<div class="boxpreguntas">
-						<ul class="collapsible" data-collapsible="accordion">
-							<li>
-								<div class="collapsible-header">¿Qué es la tarjeta bip!?</div>
-								<div class="collapsible-body"><span class="textointerno">Es el medio de pago del sistema de transportes del Transantiago, que incluye buses y Metro.
-								<br>La tarjeta bip! te permite utilizar el mismo medio de pago, a través de una tarifa integrada, tanto en buses como en Metro o la combinación entre ambos.</span></div>
-							</li>
-							<li>
-								<div class="collapsible-header">¿Cómo opera el viaje de emergencia?</div>
-								<div class="collapsible-body"><span class="textointerno">El Saldo de Emergencia está disponible las 24 horas del día, de lunes a domingo. Recuerda que este beneficio se activa a contar de la segunda carga de la tarjeta, en caso de que sea nueva y no aplica en Metro.</span></div>
-							</li>
-							<li>
-								<div class="collapsible-header">¿Qué es un Punto bip!?</div>
-								<div class="collapsible-body"><span class="textointerno">Un Punto bip! es un comercio que además de vender productor y servicios, está asociado al sistema de carga bip! por lo cual sólo puedes cargar tu tarjeta bip! en ellos.</span></div>
-							</li>
-						</ul>
+						<div class="input-field boxmail">
+							<input id="email" type="email" class="validate">
+							<label for="email" class="labelmail">Email</label>
+						</div>
+						<div class="numbtarj">
+							<input type="number" name="numero tarjeta" placeholder="Ingresa tu número de tarjeta" class="inputnumta">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 center">
+						<a class="waves-effect waves-light btn boton btncalcular">AGREGAR TARJETA</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s12 center tarjetasnuevas">
+						<!-- agregar desde js -->
+						<p class="tarjetasingresadas">123435454</p>
+						<p class="tarjetasingresadas">123435454</p>
 					</div>
 				</div>
 			</div>

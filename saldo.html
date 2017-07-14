@@ -41,28 +41,35 @@
 				</ul>
 			</div>
 		</nav>	
-		<div class="container">
+		<div class="container boxsaldo">
+			<div class="row">
+				<div class=" col s12 ">
+					<input type="number" name="numero tarjeta" placeholder="Ingresa tu número de tarjeta">
+				</div>
+			</div>
+			<div class="row">
+  				  <div class="input-field col s12 center">
+				    <select>
+				      <option value="" disabled selected>Escoge una tarjeta</option>
+				      <option value="1">Tarjeta 1</option>
+				      <option value="2">Tarjeta 2</option>
+				      <option value="3">Tarjeta 3</option>
+				    </select>
+				  </div>
+			</div>
 			<div class="row">
 				<div class="col s12 center">
-					<div class="titulopreguntas">
-						<h1 class="frecuentes">PREGUNTAS FRECUENTES</h1>
+					<a class="waves-effect waves-light btn boton btncalcular">VER SALDO</a>
+				</div>
+			</div>
+			<!-- div a crear en js -->
+			<div class="row">
+				<div class="col s12 center saldototal">
+					<div class="titulosaldo">
+						<h3>SALDO INICIAL</h3>
 					</div>
-					<div class="boxpreguntas">
-						<ul class="collapsible" data-collapsible="accordion">
-							<li>
-								<div class="collapsible-header">¿Qué es la tarjeta bip!?</div>
-								<div class="collapsible-body"><span class="textointerno">Es el medio de pago del sistema de transportes del Transantiago, que incluye buses y Metro.
-								<br>La tarjeta bip! te permite utilizar el mismo medio de pago, a través de una tarifa integrada, tanto en buses como en Metro o la combinación entre ambos.</span></div>
-							</li>
-							<li>
-								<div class="collapsible-header">¿Cómo opera el viaje de emergencia?</div>
-								<div class="collapsible-body"><span class="textointerno">El Saldo de Emergencia está disponible las 24 horas del día, de lunes a domingo. Recuerda que este beneficio se activa a contar de la segunda carga de la tarjeta, en caso de que sea nueva y no aplica en Metro.</span></div>
-							</li>
-							<li>
-								<div class="collapsible-header">¿Qué es un Punto bip!?</div>
-								<div class="collapsible-body"><span class="textointerno">Un Punto bip! es un comercio que además de vender productor y servicios, está asociado al sistema de carga bip! por lo cual sólo puedes cargar tu tarjeta bip! en ellos.</span></div>
-							</li>
-						</ul>
+					<div class="montototal">
+						<p>$1.480</p>
 					</div>
 				</div>
 			</div>
