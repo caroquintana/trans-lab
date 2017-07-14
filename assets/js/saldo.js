@@ -1,15 +1,15 @@
 $(document).ready(function() {
-//Misión: Imprimir saldos en el html
-    //aquí capturo el valor el input
-    $('.btnversaldo').click( function(){
+	
+	$('.btnversaldo').click( function(){
     	$('.titulosaldo').hide('');
     	$('.montototal').hide('');
+    	//aqui capturo el valor del input
     	var inputTarjeta = $('#ingresotarjeta').val();
     	console.log(inputTarjeta);
     	$('#ingresotarjeta').val('');
 	    	//aquí hago una llamada ajax
 	    $.ajax({
-	    	url: 'http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=' + inputTarjeta,
+	    	url: 'https://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip=' + inputTarjeta,
 	    	type: 'GET',
 	    	dataType: 'json',
 	    	data: {limit: '800'},
@@ -26,6 +26,5 @@ $(document).ready(function() {
 	    	console.log("complete");
 	    });
 
-    });      
+    });
 });
-

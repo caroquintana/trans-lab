@@ -44,7 +44,7 @@
 		<div class="container boxsaldo">
 			<div class="row">
 				<div class=" col s12 ">
-					<input type="number" name="numero tarjeta" placeholder="Ingresa tu número de tarjeta">
+					<input type="number" name="numero tarjeta" placeholder="Ingresa tu número de tarjeta" id="nuevatarget">
 				</div>
 			</div>
 			<div class="row">
@@ -52,9 +52,9 @@
 					<label for="textari" class="labeltarjeta">Tarifa</label>
 					<select class="optarifa">
 						<option value="" disabled selected>Tarifa-Horario</option>
-						<option value="">Horario Alto: $740</option>
-						<option value="">Horario Medio: $680</option>
-						<option value="">Horario Bajo: $640</option>
+						<option value="740" id="tarifaalta">740</option>
+						<option value="680" id="tarifamedia">680</option>
+						<option value="640" id="tarifabaja">640</option>
 					</select>
 				</div>
 				<div class="input-field col s6">
@@ -73,25 +73,25 @@
 					<a class="waves-effect waves-light btn boton btncalcular">CALCULAR</a>
 				</div>
 			</div>
-			<!-- div a crear en js -->
 			<div class="row">
 				<div class="col s12 center saldototal">
-					<div class="titulosaldo">
+				<!-- divs a crear en js -->
+<!-- 					<div class="titulosaldo">
 						<h3>COSTO PASAJE</h3>
 					</div>
 					<div class="montototal">
 						<p>$1.480</p>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12 center saldototal">
-					<div class="titulosaldo">
+				<div class="col s12 center saldototal2">
+<!-- 					<div class="titulosaldo">
 						<h3>SALDO FINAL</h3>
 					</div>
 					<div class="montototal">
 						<p>$1.480</p>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</div>
@@ -105,5 +105,6 @@
   	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
 	<!-- jQuery propio -->
 	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/js/calcular.js"></script>
 </body>
 </html>
