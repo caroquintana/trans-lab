@@ -216,7 +216,7 @@ h1.nombreapp{
 	font-size: 35px;
 	margin-top: 10px;
 }
-input#contrasena{
+input#input-password{
 	margin: 0 0 -17px 0;
 	background-color: #fff;
 	background-image: url(../docs/lock1600.png);
@@ -233,8 +233,9 @@ a.botonsesion{
 a.botonsesion:hover {
     background-color: #F4A728;
 }
-input#email.validate.emailinicio{
+input#input-email.validate.emailinicio{
 	margin: 0 0 -17px 0;
+	background-color: #fff;
 	background-image: url(../docs/23228.png);
 	background-repeat: no-repeat; 
 	background-position: 10px 8px;
